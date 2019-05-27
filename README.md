@@ -1,8 +1,8 @@
 # Predicting mobile app purchases
-Final project for Advances Machine Learning class at University of San Francisco.
-<br>
 <i> Team Memebers: Hongdou Li, Jacques Sham, Katja Wittfoth </i>
-
+<br>
+<br>
+Final project for Advances Machine Learning class at University of San Francisco.
 
 We were given a data set from the industry partner with a goal is to predict user churn. Since it is usually too late for a company if a user is churned, identifying churn is not a straight forward problem to solve. Therefore, the task of this project was to recognize the early signs of churn by predicting whether a user is going to make a purchase within the next 7 and 14 days. The prediction is a binary classification which measures if there will be a purchase or a lack of it. We will be evaluating our models with AUC.
 
