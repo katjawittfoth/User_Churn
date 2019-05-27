@@ -1,5 +1,6 @@
 # Predicting mobile app purchases
-<i> Final project for Advances Machine Learning class at University of San Francisco.</i>
+Final project for Advances Machine Learning class at University of San Francisco.
+<br>
 <i> Team Memebers: Hongdou Li, Jacques Sham, Katja Wittfoth </i>
 
 
