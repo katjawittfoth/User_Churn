@@ -14,8 +14,7 @@ A user is said to have churned if they uninstalled or stopped using. Usually, it
 The data was distributed across four varioys datasets: messages, events, sessions, and attributes.
 
 ## Model
-Our team achieved 0.98256 AUC using Gradient Boosting.
+Our team achieved 0.98256 AUC using XGBoost.
 
-## Relevant files
-Feature_Engineering_and_Modeling.ipynb - Feature engineering for XGBoost Model<br>
-label_extract.py - The script to compute targets<br>
+* [Modeling](https://github.com/katjawittfoth/user-churn/blob/master/Model_with_Hyperparameter_Tunning.ipynb)
+* [Script to extract labels](https://github.com/katjawittfoth/user-churn/blob/master/label_extract.py)
