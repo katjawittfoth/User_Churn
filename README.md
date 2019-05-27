@@ -1,16 +1,17 @@
 # Predicting mobile app purchases
 <i> Team Memebers: Hongdou Li, Jacques Sham, Katja Wittfoth </i>
 
-As a final project for Advanced Machine Learning class at USF, we were given a real world 40 GB dataset of anonymized user app activity by an industry partner.
-The goal was to predict whether or not those users would make a purchase within the next 7 or 14 days. 
-## Why predicting purchases if we want to know user's risk for churn?
-A user is said to have churned if they uninstalled or stopped using. Usually, it’s too late if the user has already churned. It’s easier and cheaper to retain existing users than acquire new ones. Therefore, we were asked to identify those at-risk users.
+We were given a data set from the industry partner with a goal is to predict user churn. Since it is usually too late for a company if a user is churned, identifying churn is not a straight forward problem to solve. Therefore, the task of this project was to recognize the early signs of churn by predicting whether a user is going to make a purchase within the next 7 and 14 days. The prediction is a binary classification which measures if there will be a purchase or a lack of it. We will be evaluating our models with AUC.
 
 ## Dataset
-The data was distributed across four varioys datasets: messages, events, sessions, and attributes.
+The data describes attributes, session behavior, and records of events of 600,000 unique users. After we have performed an EDA on the given data, we extracted various features and combined them with labels. 
 
-## Modeling
-Our team achieved 0.98256 AUC using XGBoost.
+# Modeling
+We have applied various Machine Learning algorithms to predict users’ purchases. We built several models including Logistic Regression, RandomForest, Gradient Boosting, and Neural Networks. XGB Boost Classifier showed the best result. After tuning the model, we improved the initial algorithm performance and were able to achieve AUC of 0.98150.
+
+<p align="center"> <img src="exp_results.png" align="middle">
+</p>
+
 
 * [Feature Engineering](https://github.com/katjawittfoth/user-churn/blob/master/Feature_Engineering.ipynb)
 * [Modeling](https://github.com/katjawittfoth/user-churn/blob/master/Model_with_Hyperparameter_Tunning.ipynb)
