@@ -1,5 +1,5 @@
 # Predicting mobile app purchases
-<i> Team Memebers: Hongdou Li, Jacques Sham, Katja Wittfoth </i>
+<i> Team Memebers: [Hongdou Li](https://github.com/helenali323), [Jacques Sham](https://github.com/jacquessham), [Katja Wittfoth](https://github.com/katjawittfoth) </i>
 <br>
 
 As a part of a final project for Advances Machine Learning class at USF we were given a data set from the industry partner with a goal to predict user churn. It is usually too late for a company when a user is churned. Therefore, the task of this project was to recognize the early signs of churn by predicting to predict whether or not those users would make a purchase within the next 7 or 14 days. The prediction is a binary classification.
