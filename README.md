@@ -10,10 +10,10 @@ The data describes attributes, session behavior, and records of events of 600,00
 ## Modeling
 We have applied various Machine Learning algorithms to predict users’ purchases. We built several models including Logistic Regression, RandomForest, Gradient Boosting, and Neural Networks. XGB Boost Classifier showed the best result. After tuning the model, we improved the initial algorithm performance and were able to achieve AUC of 0.986.
 
-<p align="center"> <img src="exp_results.png" align="middle">
+<p align="center"> <img src="Images/exp_results.png" align="middle">
 </p>
 
 
-* [Feature Engineering](https://github.com/katjawittfoth/user-churn/blob/master/Feature_Engineering.ipynb)
-* [Modeling](https://github.com/katjawittfoth/user-churn/blob/master/Model_with_Hyperparameter_Tunning.ipynb)
+* [Feature Engineering](https://github.com/katjawittfoth/User_Churn/blob/master/Feature%20Engineering/Feature_Engineering.ipynb)
+* [Modeling](https://github.com/katjawittfoth/User_Churn/blob/master/Models/Model_with_Hyperparameter_Tunning.ipynb)
 * [Script to extract labels](https://github.com/katjawittfoth/user-churn/blob/master/label_extract.py)
